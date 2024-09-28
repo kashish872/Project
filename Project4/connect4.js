@@ -119,6 +119,7 @@ function checkWinner() {
     }
 }
 
+
 function setWinner(r, c) {
     let winner = document.getElementById("winner");
     if (board[r][c] == playerRed) {
@@ -128,3 +129,4 @@ function setWinner(r, c) {
     }
     gameOver = true;
 }
+
